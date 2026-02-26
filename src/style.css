@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Origin design tokens from Figma */
+  --color-page-bg: #f4f8fa;
+  --color-card: #ffffff;
+  --color-brand-primary: #1b31a8;
+  --color-brand-secondary: #0079ff;
+  --color-text-primary: #1e2a32;
+  --color-text-secondary: #4d6475;
+  --color-text-muted: #708797;
+  --color-border: #e9eef2;
+  --color-gray-bg: #f4f8fa;
+  --shadow-card: 0px 16px 32px rgba(30, 42, 50, 0.08);
+  --radius-card: 8px;
+  --radius-button: 32px;
+  --font-sans: 'Work Sans', system-ui, sans-serif;
+  --font-display: 'Rubik', system-ui, sans-serif;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: var(--font-sans);
+  }
+}
