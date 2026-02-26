@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/buy-house/',
   plugins: [vue(), tailwindcss()],
   resolve: {
     alias: {
